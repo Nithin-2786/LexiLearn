@@ -8,10 +8,11 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/QuizeQuestion', {
+mongoose.connect('mongodb+srv://tapan:RLiSh6jDkBVuu46G@cluster0.x3ssukh.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
+console.log('connected');
 
 // Define the question schema
 const questionSchema = new mongoose.Schema({

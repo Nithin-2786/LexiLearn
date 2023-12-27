@@ -8,10 +8,11 @@ const port = 3000;
 const cors = require('cors');
 app.use(cors());
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/userDatabase', {
+mongoose.connect('mongodb+srv://tapan:RLiSh6jDkBVuu46G@cluster0.x3ssukh.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
+console.log('connected');
 
 // Define the user schema
 const userSchema = new mongoose.Schema({

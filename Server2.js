@@ -9,10 +9,11 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/userDatabase', {
+mongoose.connect('mongodb+srv://tapan:RLiSh6jDkBVuu46G@cluster0.x3ssukh.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
+console.log('connected');
 const userSchema = new mongoose.Schema({
     email: String,
     quizAttempts: [{
