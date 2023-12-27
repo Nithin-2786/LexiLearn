@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Game</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS to increase navbar size */
+        .navbar {
+            padding: 30px; 
+            font-size: 1em;
+            margin:1%;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .navbar-brand {
+            margin-right: 5%;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Your content goes here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LexiLearn</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="logoutButton">logout</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Test
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <button class="dropdown-item b" >English</button>
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item b" >Spanish</button>
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item b" >French</button>
+                    </div>
+                </li>
+                <!-- Update the Sign In/Log Out link -->
+                <li class="nav-item" id="signInNavItem">
+                    <a class="nav-link" href="./Sign-in.html">Sign In</a>
+                </li>
+                <li class="nav-item" id="logOutNavItem" style="display: none;">
+                    <a class="nav-link" href="#" id="logOutLink">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+      
+       
+    <section id="pricing">
+        <div class="container">
+           
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h2 class="display-4 fw-normal text-body-emphasis">Welcome to LexiLearn Language Learning Game</h1>
+                <p class="fs-5 text-body-secondary">Unlock Your Potential, Embrace the Challenge, and Let LexiLearn Guide Your Language Journey – Because Every Word Counts!</p>
+            </div>
+        
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Basic</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Limited No.of Quizes</li>
+                                <li>Can see leaderboard</li>
+                                <li>Access to user profile</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-dark" id="but">Get started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Standard</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Unlimited Quizes</li>
+                                <li>Detailed Profile view</li>
+                                <li>Unlimited App Usaget</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-dark" >Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm ">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Premium</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Pirority Listing</li>
+                                <li>Unlimited Quizes && Detailed Profile view</li>
+                                <li>Unlimited App Usage </li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+           
+    localStorage.removeItem('otherUserRelatedData'); 
+            // Add a click event listener to the "Get started" button
+            document.getElementById('but').addEventListener('click', function () {
+                // Redirect to Quiz.html
+                window.location.href = 'Quizes.html';
+            });
+    
+            const userEmail = localStorage.getItem('userEmail');
+        
+    if (!userEmail) {
+        // User is not signed in, redirect to sign-in page
+        window.location.href = 'Sign-in.html';
+    }
+    document.getElementById('logoutButton').addEventListener('click', function () {
+    // Clear user-related information from local storage
+    localStorage.removeItem('userEmail');
+    localStorage.removeItem('otherUserRelatedData');  // Add other keys as needed
+
+    // Optionally, you can redirect the user to the login page or perform other actions
+    // For example, redirect to the login page:
+    window.location.href = 'Sign-in.html';
+});       
+const buttons = document.querySelectorAll('.b');
+
+// Add event listeners to each button individually
+buttons.forEach(button => {
+  button.addEventListener('click', function(event) {
+    // Get the text of the clicked button
+    const buttonText = this.textContent; // Use 'this' to refer to the clicked button
+
+    // Build the URL with the language parameter
+    const url = 'test.html?language='+buttonText;
+    
+    window.location.href = url;
+  });
+}); 
+}); 
+        
+    </script>
+    <!-- Your other scripts go here -->
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Levels</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+
+        .quiz-container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+      
+        /* Custom CSS to increase navbar size */
+        .navbar{
+            padding: 30px; 
+            font-size: 1em;
+            margin:1%;
+            font-weight: bold;
+            font-size: 23px;
+             }
+         .navbar-brand{
+            margin-right: 5%;
+            font-size: 30px;
+         }
+        
+         .btn{
+          margin-right: 5%;
+          margin-top: 2%;
+          margin-bottom: 2%;
+         }
+    </style>
+</head>
+<body>
+    <!-- Quiz Containers -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">LexiLearn</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" id="logoutButton">logout</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Quiz
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+              </li>
+              <!-- Update the Sign In/Log Out link -->
+              <li class="nav-item" id="signInNavItem">
+                  <a class="nav-link" href="./Sign-in.html">Sign In</a>
+              </li>
+              <li class="nav-item" id="logOutNavItem" style="display: none;">
+                  <a class="nav-link" href="#" id="logOutLink">Log Out</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+    
+    <div class="container">
+        <div class="quiz-container">
+            <h3>Language: English - Beginner</h3>
+             <button class="btn btn-dark" id="stn">Start Quiz</button>
+            <button class="btn btn-dark" id="ld">Leaderboard</button>
+        </div>
+
+        <div class="quiz-container">
+            <h3>Language: English - Intermediate</h3>
+             <button class="btn btn-dark" id="stn">Start Quiz</button>
+            <button class="btn  btn-dark" id="ld">Leaderboard</button>
+        </div>
+
+
+        <div class="quiz-container">
+            <h3>Language: Spanish - Beginner</h3>
+             <button class="btn btn-dark" id="stn">Start Quiz</button>
+            <button class="btn btn-dark" id="ld">Leaderboard</button>
+        </div>
+
+        <div class="quiz-container">
+            <h3>Language: French - Beginner</h3>
+             <button class="btn btn-dark" id="stn">Start Quiz</button>
+            <button class="btn btn-dark" id="ld">Leaderboard</button>
+        </div>
+
+        <div class="quiz-container">
+            <h3>Language: French - Intermediate</h3>
+            <button class="btn btn-dark" id="stn">Start Quiz</button>
+            <button class="btn btn-dark" id="ld">Leaderboard</button>
+        </div>
+
+        
+    </div>
+  
+    <script src="quiz.js"></script>
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

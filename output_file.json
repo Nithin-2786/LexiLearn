@@ -1,0 +1,552 @@
+[
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "Most university students …………………. on campus in their first year.",
+    "options": [
+      "Lives",
+      "Live",
+      "are living"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "From this graph we can see that the economy ………………… at the moment.",
+    "options": [
+     "Improves",
+        "Improve",
+      "is improving"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "They …………………. personal computers when my father was a student.",
+    "options": [
+      "hadn’t",
+      "didn’t have",
+      "weren’t having"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "I ……………… want to be a practicing doctor but now I’m more interested in research.",
+    "options": [
+      "was used to",
+      "used to",
+      "would"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "The teacher ………………… us how to do the experiment when the fire bell rang.",
+    "options": [
+      "Showed",
+      "Shown",
+      "was showing"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "I finished my essay yesterday but …………….. it in to the tutor yet.",
+    "options": [
+      "I’ve given",
+      "I haven’t given",
+      "I didn’t give"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "…………………. the experiment three times now with different results each time!",
+    "options": [
+      "We’ve done",
+      "We did",
+      "We’ve been doing"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "When I arrived the lecture …………… So I didn’t find it easy to follow.",
+    "options": [
+      "started",
+      "had started",
+      "had been starting"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "She ……………. well at school but that changed when she became friends with a different group of girls.",
+    "options": [
+      "did",
+      "had done",
+      "had been doing"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "……………….. the doctor at 2.00 this afternoon so I can’t go to the lecture.",
+    "options": [
+      "I’m seeing",
+      "I see",
+      "I will see"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "My sister ………………… economics and politics when she goes to university.",
+    "options": [
+      "is going to study",
+      "studies",
+      "will study"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "While we’re working on the project our boss …………. on a beach in Greece!",
+    "options": [
+      "will sit",
+      "will have sat",
+      "will be sitting"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "If the trend continues, the average income ………….. by 107% by 2020.",
+    "options": [
+      "Will increase",
+      "will have increased",
+      "will be increasing"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "You can base your geography assignment on ………………….. country — it doesn’t matter which.",
+    "options": [
+      "a",
+      "some",
+      "any"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "There aren’t ………………….. places left on the course so you’d better apply soon.",
+    "options": [
+      "much",
+      "many",
+      "lots of"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "I don’t know whether to accept the job offer. It’s …………………. .",
+    "options": [
+      "a difficult decision",
+      "the difficult decision",
+      "difficult decision"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "For those of you new to the company, this leaflet is full of ………………….. .",
+    "options": [
+      "a valuable information",
+      "the valuable information",
+      "valuable information"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "The manager interviewed ……………………. candidates in turn.",
+    "options": [
+      "each of the",
+      "each",
+      "every"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "I know it’s not much of a present but I made it …………………. .",
+    "options": [
+      "me",
+      "myself",
+      "by myself"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "You should visit Bath. It’s …………………. city.",
+    "options": [
+      "a historical and interesting",
+      "a historical interesting",
+      "an interesting historical"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "The government has released some …………….. data showing how schools are not providing an adequate education to our children.",
+    "options": [
+      "shocking",
+      "shock",
+      "shocked"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "You really should go to Namibia. The scenery is ……………….. Stunning and the people are very friendly.",
+    "options": [
+      "very",
+      "fairly",
+      "absolutely"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "This factory produces some of ……………………… cameras in the world.",
+    "options": [
+      "best",
+      "the best",
+      "the most best"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "………………… People live in the countryside than 100 years ago.",
+    "options": [
+      "Less",
+      "Few",
+      "Fewer"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "The bookshop ………………… the end of the road is excellent.",
+    "options": [
+      "at",
+      "on",
+      "in"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "There were millions of people around the world ……………… the football match live on television.",
+    "options": [
+      "watched",
+      "watching",
+      "were watching"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "Scientists finally ……………… find a cure for the disease after years of research.",
+    "options": [
+      "managed to",
+      "can",
+      "could"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "She got a terrible mark in the exam so She ………………. very hard at all.",
+    "options": [
+      "mustn’t have worked",
+      "can’t have worked",
+      "didn’t work"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "What ……………….. in order to get a permit to work in your country?",
+    "options": [
+      "do I need to do",
+      "must I do",
+      "ought I do"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "When you write your essays you ………………. copy ideas from books without referencing them properly.",
+    "options": [
+      "mustn’t",
+      "don’t have to",
+      "have to"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "Doctors have …………….. us to cut down on salt in our diets if we want to reduce the risk of getting heart disease.",
+    "options": [
+      "insisted",
+      "suggested",
+      "advised"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "………………… this newspaper report, more women smoke than men nowadays.",
+    "options": [
+      "Apparently",
+      "According to",
+      "Supposedly"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "My parents encouraged ………………… this course.",
+    "options": [
+      "me to do",
+      "me doing",
+      "me do"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "What will you do if ……………………..",
+    "options": [
+      "you don’t get a good IELTS score?",
+      "you didn’t get a good IELTS score?",
+      "you won’t get a good IELTS score?"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "A recent government report has warned that …………………….. We act immediately to reduce pollution; there will be serious consequences for the planet.",
+    "options": [
+      "provided that",
+      "in case",
+      "unless"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "If I didn’t have to work tonight ………………… .",
+    "options": [
+      "I’d be able to relax now.",
+      "I’m able to relax now.",
+      "I’II be able to relax now."
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "I wish that man …………………. tapping his fingers on the table. It’s really annoying me.",
+    "options": [
+      "stopped",
+      "had stopped",
+      "would stop"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "I’m aiming ……………………….. a band 7 in IELTS.",
+    "options": [
+      "on",
+      "for",
+      "to"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "Do you have any knowledge ………………… how our education system works?",
+    "options": [
+      "of",
+      "on",
+      "for"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "The minister …………………. is responsible for education has just resigned.",
+    "options": [
+      "which",
+      "who",
+      "what"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "The University of St Andrews …………………… is the oldest university in Scotland.",
+    "options": [
+      "which was founded in 1413",
+      "which was founded in 1413,",
+      "that was founded in 1413,"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "Many children these days do not have a healthy diet ………………. is possible that this is because less healthy foods are cheaper than healthy ones.",
+    "options": [
+      "What",
+      "That",
+      "It"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "The charity is trying to find ways to save and ………………… the world’s endangered animal species.",
+    "options": [
+      "the charity is trying to find ways to protect",
+      "to find ways to protect",
+      "protect"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "In the past we threw a lot of our kitchen waste away, but today many items such as plastic bottles and newspapers …………………. .",
+    "options": [
+      "are recycled",
+      "recycle.",
+      "need recycling"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "I can’t pick you up from the station on Wednesday because ………………. on that day.",
+    "options": [
+      "I’m fixing my car",
+      "I’m having my car fixed",
+      "I need my car fixed"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "These drugs are the best medicine available as a treatment at the moment ………………… they are expensive, unfortunately.",
+    "options": [
+      "although",
+      "because",
+      "so"
+    ],
+    "answer": "A"
+  },
+  {
+    "language": "English",
+    "level": "Intermediate",
+    "question": "Learning a foreign language is important because it helps you to understand other cultures better …………. it can be a useful skill in many areas of work.",
+    "options": [
+      "However,",
+      "Despite this,",
+      "In addition,"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "……………………. I can’t go to the conference as I’ve got to go to Sydney on business.",
+    "options": [
+      "Frankly",
+      "Unfortunately",
+      "Personally"
+    ],
+    "answer": "B"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "……………………. I think it’s useful to write an outline of your essay before you start to write the first draft.",
+    "options": [
+      "Interestingly,",
+      "Definitely,",
+      "Personally,"
+    ],
+    "answer": "C"
+  },
+  {
+    "language": "English",
+    "level": "Beginner",
+    "question": "The …………….. of dark red spots is one of the first signs of the disease.",
+    "options": [
+      "appearance",
+      "appearing",
+      "appear"
+    ],
+    "answer": "A"
+  }
+]

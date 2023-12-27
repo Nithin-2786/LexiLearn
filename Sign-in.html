@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f9fa; /* Set a background color for the body */
+        }
+
+        .box {
+            border: 1px solid #dee2e6; /* Set border color */
+            padding: 20px;
+            border-radius: 8px; /* Add border-radius for rounded corners */
+            background-color: #fff; /* Set background color for the box */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+        }
+
+        .container {
+            max-width: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> <!-- Wrap the container with a div with class "box" -->
+        <form id="sign-in" class="container">
+            <h2 class="mt-5 mb-4">Sign in for LexiLearn</h2>
+            <div class="form-group">
+                <label for="inputEmail">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+            </div>
+            <span id="passwordError" class="text-danger"></span>
+            <button type="submit" class="btn btn-primary mt-3">Sign in</button>
+        </form>
+        <div class="mt-3">
+            <p>Not registered? <a href="Sign-up.html">Sign up</a></p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./sign-in.js"></script>
+</body>
+</html>
