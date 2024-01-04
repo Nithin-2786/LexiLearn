@@ -203,6 +203,6 @@ function determineDifficultyLevel(user) {
 
 
 // Start the server
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
