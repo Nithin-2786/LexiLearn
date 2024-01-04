@@ -4,14 +4,6 @@ Unzip the file: Locate the output_file.json file within the unzipped directory.
 
 Import quiz questions into MongoDB:
 
- Connect to your MongoDB instance.
-
- Create a database named QuizQuestion.
-
- Within the QuizQuestion database, create a collection named Questions.
-
- Import the data from output_file.json into the Questions collection.
-
 Run the server code:
 
  Open a terminal and navigate to the project directory.
@@ -68,6 +60,3 @@ Mobile responsiveness: Bootstrap framework
 
 Test:Questions in the test suggested based on user performance
 
-Additional Notes
-
-Create a MongoDB database named userDatabase to store user credentials.
