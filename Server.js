@@ -21,7 +21,7 @@ const questionSchema = new mongoose.Schema({
     question: String,
     options: [String],
     answer: String,
-    // Add other fields as needed
+    
 });
 
 // Define the Question model
@@ -29,7 +29,7 @@ const Question = mongoose.model('Question', questionSchema, 'Questions');
 
 
 
-// Define the getQuestions function
+
 async function getQuestions(language, level) {
     try {
         // Fetch 5 questions based on language and level
@@ -53,7 +53,7 @@ app.all('/startQuiz', async (req, res) => {
 
         res.json(questions);
     } catch (error) {
-        // Handle errors and send an appropriate response
+        
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
@@ -65,17 +65,16 @@ app.get('/questions', async (req, res) => {
         const language = req.query.language;
         const level = req.query.level;
         
-        // Fetch the user data from the database
+        // Fetching the user data from the database
       
 
         // Logic to determine the user's performance and fetch questions accordingly
-        // Modify this logic based on your specific criteria
-       
+        
         const questions = await fetchQuestions(language,level);
-        // Fetch questions based on the language and difficulty level
+        // Fetching questions based on the language and difficulty level
         
 
-        // Send the questions to the client
+        // Sending the questions to the client
         res.json(questions);
     } catch (error) {
         console.error(error);
@@ -83,9 +82,8 @@ app.get('/questions', async (req, res) => {
     }
 });
 async function fetchQuestions(language, difficultyLevel) {
-    // Implement your logic to fetch questions from the database based on language and difficulty level
-
-    // Example: Fetching questions from a hypothetical database
+  
+    //Fetching questions from a database
     if(difficultyLevel==='Beginner'){
     const questions = await Question.find({
         language: language,
